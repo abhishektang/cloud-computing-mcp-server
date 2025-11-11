@@ -279,6 +279,19 @@ All materials are stored locally on your machine. The MCP server only provides a
 
 MIT
 
+## 📦 Distribution
+
+To create a distribution package for sharing:
+
+```bash
+# Create npm package
+npm pack
+
+# This creates cloud-computing-mcp-server-1.0.0.tgz
+# Share this file with others who can install it with:
+# npm install -g cloud-computing-mcp-server-1.0.0.tgz
+```
+
 ## 🤝 Contributing
 
 This is a personal study tool, but feel free to customize it for your own needs!

@@ -3,3 +3,17 @@ build/
 *.log
 .DS_Store
 .env
+
+# Package files (users can generate with npm pack)
+*.tgz
+*.zip
+
+# Temporary documentation files
+CHECKLIST.md
+SETUP_*.md
+MIGRATION_*.md
+DISTRIBUTION.md
+INSTALL_README.md
+QUICK_SETUP.md
+SHARE_*.md
+SHARING_*.md
