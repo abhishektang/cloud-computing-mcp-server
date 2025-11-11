@@ -1,0 +1,36 @@
+# Development files
+src/
+tsconfig.json
+.vscode/
+.github/
+
+# Documentation (keep only README.md)
+CHECKLIST.md
+MIGRATION_SUMMARY.md
+SETUP_COMPLETE.md
+SETUP_SUMMARY.md
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+
+# Env
+.env
+.env.local
+
+# Keep these files
+!README.md
+!QUICKSTART.md
+!package.json
+!build/
+!materials/
